@@ -34,6 +34,9 @@ python manage.py runserver
 3. POST `/api/hackathons/` - Create a hackathon
 4. PUT `/api/hackathons/<hackathon_id>` - Update a hackathon
 5. DELETE `/api/hackathons/<hackathon_id>` - Delete a hackathon
-10. GET `/api/hackathons/user/participate/` - Get all hackathons current user is participating in
-14. GET `hackathons/user/atleastone/` -  Get all the users(participants) who have enrolled in atleast one hackathon
-15. GET `hackathons/user/notone/` -  Get all the users(participants) who have not enrolled in a single hackathon
+6. GET `/api/users/` - Get all users
+7. GET `/api/users/<user_id>` - Get a specific user
+8. POST `/api/users/` - Create a user
+9. GET `/api/participate/` - Get all hackathons current user is participating in
+10. GET `hackathons/user/atleastone/` -  Get all the users(participants) who have enrolled in atleast one hackathon
+11. GET `hackathons/user/notone/` -  Get all the users(participants) who have not enrolled in a single hackathon
