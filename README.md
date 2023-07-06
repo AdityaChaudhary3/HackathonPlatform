@@ -28,3 +28,12 @@ To Run the app
 ```
 python manage.py runserver
 ```
+## API Endpoints
+1. GET `/api/hackathons/` - Get all hackathons
+2. GET `/api/hackathons/<hackathon_id>` - Get a specific hackathon
+3. POST `/api/hackathons/` - Create a hackathon
+4. PUT `/api/hackathons/<hackathon_id>` - Update a hackathon
+5. DELETE `/api/hackathons/<hackathon_id>` - Delete a hackathon
+10. GET `/api/hackathons/user/participate/` - Get all hackathons current user is participating in
+14. GET `hackathons/user/atleastone/` -  Get all the users(participants) who have enrolled in atleast one hackathon
+15. GET `hackathons/user/notone/` -  Get all the users(participants) who have not enrolled in a single hackathon
