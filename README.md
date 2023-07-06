@@ -23,3 +23,8 @@ For Migrations and start the database
 python manage.py makemigrations
 python manage.py migrate
 ```
+
+To Run the app
+```
+python manage.py runserver
+```
